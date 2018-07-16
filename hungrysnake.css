@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.startPage {
+    width: 100%;
+    height: 635px;
+    z-index: 999;
+    background-image: url(img/bg.jpg);
+    background-size: 100% 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    display: none;
+}
+
+.startBtn {
+    width: 150px;
+    height: 150px;
+    background-image: url(img/startGame.png);
+    background-size: 100% 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    cursor: pointer;
+}
+
+.gamePage {
+    width: 100%;
+    height: 635px;
+    background-image: url(img/bg.jpg);
+    background-size: 100% 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    /* display: none; */
+}
+
+.header {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate3d(-50%, 0, 0);
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #fff;
+}
+
+.game {
+    position: absolute;
+    top: 31%;
+    left: 50%;
+    transform: translate3d(-50%, 0, 0);
+    width: 39%;
+    height: 32%;
+    /* border: 1px solid #333; */
+}
+
+.control {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    background-image: url(img/pause.png);
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+
+.losePage {
+    width: 100%;
+    height: 635px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    display: none;
+}
+
+.scoreImg {
+    width: 25%;
+    height: 250px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0);
+    background-image: url(img/score.jpg);
+    background-size: 100% 100%;
+    border-radius: 10px;
+}
+
+.scoreImg .score {
+    font-size: 20px;
+    color: #333;
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    transform: translate3d(-45%, -45%, 0);
+}
+
+.losePage .close {
+    position: absolute;
+    top: 31%;
+    left: 60%;
+    width: 20px;
+    height: 20px;
+    background-image: url(img/closeBtn.png);
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+
+.food {
+    width: 20px;
+    height: 20px;
+    background-image: url(img/food.png);
+    background-size: 100% 100%;
+}
+
+.head {
+    width: 20px;
+    height: 20px;
+    background-image: url(img/head.png);
+    background-size: 100% 100%;
+}
+.body{
+    width: 20px;
+    height: 20px;
+    background-image: url(img/body.png);
+    background-size: 100% 100%;
+}
